@@ -1,4 +1,4 @@
-package kr.taevel.java;
+package kr.taevel.basic;
 
 import java.util.Random;
 
