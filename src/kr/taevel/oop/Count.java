@@ -11,4 +11,5 @@ public class Count {
     public static int getCnt() {
         return cnt;
     }
+
 }

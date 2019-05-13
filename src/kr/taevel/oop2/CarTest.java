@@ -9,6 +9,7 @@ public class CarTest {
                 new Car("투싼"),
                 new Car("싼타")
         };
+        Car.setCompany("현대");
 
         for (Car car: cars) {
             System.out.println(car);
