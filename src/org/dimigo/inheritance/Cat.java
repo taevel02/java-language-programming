@@ -6,6 +6,7 @@ public class Cat extends Animal {
         super(name);
     }
 
+    @Override
     public void bark() {
         System.out.println("야옹");
     }

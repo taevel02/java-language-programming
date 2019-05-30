@@ -20,6 +20,7 @@ public class Animal {
         System.out.println("멍멍");
     }
 
+    @Override
     public String toString() {
         return "제 이름은 " + name + "입니다.";
     }

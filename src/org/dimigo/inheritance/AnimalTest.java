@@ -29,6 +29,37 @@ public class AnimalTest {
         t.sleep();
         t.bark();
         t.hunt();
+
+        Animal d2 = new Dog("멍멍이");
+        Animal c2 = new Cat("냥냥이");
+        Animal t2 = new Tiger("어흥이");
+        d2.bark();
+        c2.bark();
+        t2.bark();
+
+        Animal[] animals = {
+                new Dog("멍멍"),
+                new Cat("야옹"),
+                new Tiger("어흥")
+        };
+
+        for (Animal animal : animals) {
+            System.out.println(animal);
+            animal.eat();
+            animal.sleep();
+            animal.bark();
+        }
+
+        for (Animal animal : animals) {
+            doBark(animal);
+        }
+    }
+
+    private static void doBark(Animal animal) {
+        System.out.println(animal);
+        animal.eat();
+        animal.sleep();
+        animal.bark();
     }
 
 }
